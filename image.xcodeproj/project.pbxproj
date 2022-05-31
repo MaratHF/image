@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435FC4928463AA3004D2B13 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435FC4828463AA3004D2B13 /* CardView.swift */; };
 		04512BED28460FEF00388AD5 /* imageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04512BEC28460FEF00388AD5 /* imageApp.swift */; };
 		04512BEF28460FEF00388AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04512BEE28460FEF00388AD5 /* ContentView.swift */; };
 		04512BF128460FF600388AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04512BF028460FF500388AD5 /* Assets.xcassets */; };
 		04512BF428460FF600388AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04512BF328460FF600388AD5 /* Preview Assets.xcassets */; };
+		04512BFB2846251100388AD5 /* ClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04512BFA2846251000388AD5 /* ClubsView.swift */; };
+		0451D7592846574500835912 /* CardTenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451D7582846574500835912 /* CardTenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0435FC4828463AA3004D2B13 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		04512BE928460FEF00388AD5 /* image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04512BEC28460FEF00388AD5 /* imageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageApp.swift; sourceTree = "<group>"; };
 		04512BEE28460FEF00388AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04512BF028460FF500388AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04512BF328460FF600388AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04512BFA2846251000388AD5 /* ClubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsView.swift; sourceTree = "<group>"; };
+		0451D7582846574500835912 /* CardTenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				04512BEC28460FEF00388AD5 /* imageApp.swift */,
 				04512BEE28460FEF00388AD5 /* ContentView.swift */,
+				0435FC4828463AA3004D2B13 /* CardView.swift */,
+				0451D7582846574500835912 /* CardTenView.swift */,
+				04512BFA2846251000388AD5 /* ClubsView.swift */,
 				04512BF028460FF500388AD5 /* Assets.xcassets */,
 				04512BF228460FF600388AD5 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04512BEF28460FEF00388AD5 /* ContentView.swift in Sources */,
+				04512BFB2846251100388AD5 /* ClubsView.swift in Sources */,
+				0435FC4928463AA3004D2B13 /* CardView.swift in Sources */,
 				04512BED28460FEF00388AD5 /* imageApp.swift in Sources */,
+				0451D7592846574500835912 /* CardTenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +313,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,7 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
