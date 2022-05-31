@@ -12,6 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
+            Color(UIColor(.green))
+                .ignoresSafeArea()
             CardTenView()
                 .frame(width: 150, height: 300)
                 .rotationEffect(Angle(degrees: cardsIsShowing ? -50 : 0))
